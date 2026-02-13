@@ -1,0 +1,13 @@
+-d D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\impl\gwsynthesis\camera_hdmi.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\dk_video.cst
+-cfg D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\impl\pnr\device.cfg
+-sdc D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\dk_video.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

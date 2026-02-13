@@ -1,0 +1,156 @@
+[
+ {
+  "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/testpattern.v",
+  "InstLine" : 17,
+  "InstName" : "testpattern",
+  "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/testpattern.v",
+  "ModuleLine" : 17,
+  "ModuleName" : "testpattern"
+ },
+ {
+  "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+  "InstLine" : 1,
+  "InstName" : "video_top",
+  "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "video_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 48,
+    "InstName" : "u_Reset_Sync",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "ModuleLine" : 229,
+    "ModuleName" : "Reset_Sync"
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 50,
+    "InstName" : "u_OV2640_Controller",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/ov2640/OV2640_Controller.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "OV2640_Controller",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 30,
+      "InstName" : "LUT",
+      "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/ov2640/OV2640_Registers.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "OV2640_Registers"
+     },
+     {
+      "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 41,
+      "InstName" : "I2C",
+      "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/ov2640/I2C_Interface.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "I2C_Interface"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 70,
+    "InstName" : "u_gaussian",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/gaussian_camera.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "gaussian_filter"
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 83,
+    "InstName" : "u_median",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/median_camera.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "median_filter"
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 97,
+    "InstName" : "u_btn",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "ModuleLine" : 239,
+    "ModuleName" : "button_pulse"
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 168,
+    "InstName" : "Video_Frame_Buffer_Top_inst",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_frame_buffer/video_frame_buffer.v",
+    "ModuleLine" : 3014,
+    "ModuleName" : "Video_Frame_Buffer_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_frame_buffer/video_frame_buffer.v",
+      "InstLine" : 3065,
+      "InstName" : "vfb_hyperram_wrapper_inst",
+      "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_frame_buffer/video_frame_buffer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~vfb_hyperram_wrapper.Video_Frame_Buffer_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 177,
+    "InstName" : "GW_PLLVR_inst",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/gowin_pllvr/GW_PLLVR.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "GW_PLLVR"
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 178,
+    "InstName" : "HyperRAM_Memory_Interface_Top_inst",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/hyperram_memory_interface/hyperram_memory_interface.v",
+    "ModuleLine" : 3735,
+    "ModuleName" : "HyperRAM_Memory_Interface_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "InstLine" : 3810,
+      "InstName" : "u_hpram_top",
+      "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~hpram_top.HyperRAM_Memory_Interface_Top_"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 187,
+    "InstName" : "syn_gen_inst",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/syn_code/syn_gen.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "syn_gen"
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 211,
+    "InstName" : "TMDS_PLLVR_inst",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/gowin_pllvr/TMDS_PLLVR.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "TMDS_PLLVR"
+   },
+   {
+    "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+    "InstLine" : 216,
+    "InstName" : "DVI_TX_Top_inst",
+    "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 1048,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/dvi_tx/dvi_tx.v",
+      "InstLine" : 1079,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ }
+]

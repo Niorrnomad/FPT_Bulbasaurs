@@ -1,0 +1,65 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/dvi_tx/dvi_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/gaussian_camera.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/gowin_pllvr/GW_PLLVR.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/gowin_pllvr/TMDS_PLLVR.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/hyperram_memory_interface/hyperram_memory_interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/median_camera.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/ov2640/I2C_Interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/ov2640/OV2640_Controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/ov2640/OV2640_Registers.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/syn_code/syn_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/testpattern.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_frame_buffer/video_frame_buffer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/src/video_top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Zalo/FPT_Bulbasaurs/FPT_Bulbasaurs/gaume/gaussian+median/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

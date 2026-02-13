@@ -1,0 +1,88 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\GAUSSIN.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\gowin_pllvr\GW_PLLVR.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\gowin_pllvr\TMDS_PLLVR.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\ov2640\I2C_Interface.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\ov2640\OV2640_Controller.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\ov2640\OV2640_Registers.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\syn_code\syn_gen.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\testpattern.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v'
+Analyzing Verilog file 'D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v'
+Undeclared symbol 'sys_resetn', assumed default net type 'wire'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":109)
+WARN  (EX3012) : Empty statement in sequential block("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":363)
+WARN  (EX3012) : Empty statement in sequential block("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":366)
+WARN  (EX3801) : Parameter 'count_ms' becomes localparam in 'key_flag' with formal parameter declaration list("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":346)
+WARN  (EX3801) : Parameter 'count_20ms' becomes localparam in 'key_flag' with formal parameter declaration list("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":347)
+WARN  (EX3801) : Parameter 'count_500ms' becomes localparam in 'key_flag' with formal parameter declaration list("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":348)
+WARN  (EX3073) : Port 'o_href' remains unconnected for this instance("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":153)
+Compiling module 'video_top'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":1)
+Compiling module 'Reset_Sync'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":322)
+Compiling module 'OV2640_Controller'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\ov2640\OV2640_Controller.v":1)
+Compiling module 'OV2640_Registers'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\ov2640\OV2640_Registers.v":1)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\ov2640\OV2640_Registers.v":36)
+Compiling module 'I2C_Interface(SID=8'h60)'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\ov2640\I2C_Interface.v":14)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\ov2640\I2C_Interface.v":81)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\ov2640\I2C_Interface.v":166)
+Compiling module 'gaussian_filter'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\GAUSSIN.v":1)
+Extracting RAM for identifier 'line_buff_0'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\GAUSSIN.v":14)
+Extracting RAM for identifier 'line_buff_1'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\GAUSSIN.v":15)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\GAUSSIN.v":31)
+Compiling module 'key_flag'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":337)
+WARN  (EX3791) : Expression size 31 truncated to fit in target size 30("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":360)
+Compiling module 'Video_Frame_Buffer_Top'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":3014)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":0)
+Compiling module 'GW_PLLVR'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\gowin_pllvr\GW_PLLVR.v":8)
+Compiling module 'HyperRAM_Memory_Interface_Top'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":3735)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX1998) : Net '**' does not have a driver("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX1998) : Net '**' does not have a driver("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+Compiling module 'syn_gen'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\syn_code\syn_gen.v":1)
+Compiling module 'TMDS_PLLVR'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\gowin_pllvr\TMDS_PLLVR.v":9)
+Compiling module 'DVI_TX_Top'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\dvi_tx\dvi_tx.v":1048)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\dvi_tx\dvi_tx.v":0)
+Compiling module '**'("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\dvi_tx\dvi_tx.v":0)
+NOTE  (EX0101) : Current top module is "video_top"
+WARN  (EX0211) : The output port "rd_data[10]" of module "~hpram_wd.HyperRAM_Memory_Interface_Top_" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "rd_data[5]" of module "~hpram_wd.HyperRAM_Memory_Interface_Top_" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "rd_data[10]" of module "~hpram_lane.HyperRAM_Memory_Interface_Top__Z1" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "rd_data[5]" of module "~hpram_lane.HyperRAM_Memory_Interface_Top__Z1" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+WARN  (EX0211) : The output port "addr_d[19]" of module "~hpram_init.HyperRAM_Memory_Interface_Top_" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":0)
+[5%] Running netlist conversion ...
+WARN  (CV0020) : Input PIXDATA[3:0] is unused("D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\src\video_top.v":9)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\impl\gwsynthesis\camera_hdmi.vg" completed
+[100%] Generate report file "D:\Zalo\FPT_Bulbasaurs\FPT_Bulbasaurs\gg_gau\gaussianx2\camera_hdmi\impl\gwsynthesis\camera_hdmi_syn.rpt.html" completed
+GowinSynthesis finish
