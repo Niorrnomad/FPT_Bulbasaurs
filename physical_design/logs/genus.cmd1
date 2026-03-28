@@ -11,3 +11,9 @@ set_db max_cpus_per_server 4
 set_db information_level 0
 syn_generic
 syn_map
+syn_opt
+write_hdl > $OUT_DIR/${DESIGN}_synth.v
+write_sdc > $OUT_DIR/${DESIGN}_synth.sdc
+report_area  > $OUT_DIR/${DESIGN}_area.rpt
+report_power > $OUT_DIR/${DESIGN}_power.rpt
+report_timing > $OUT_DIR/${DESIGN}_timing.rpt
