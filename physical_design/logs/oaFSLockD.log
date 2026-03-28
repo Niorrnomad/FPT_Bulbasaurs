@@ -1,0 +1,4 @@
+Tool:		oaFSLockD           22.62.006
+ERROR: (OA-134): Socket error code: '98': "Address already in use".
+
+Exit oaFSLockD.

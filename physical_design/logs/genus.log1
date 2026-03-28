@@ -3302,3 +3302,9 @@ Info   : PWRA-0007 Completed successfully.
        : Info=6, Warn=0, Error=0, Fatal=0
 Output file: /home/niorr/FPT_Bulbasaurs/physical_design/results/gaussian_filter_power.rpt
 @genus:root: 13> report_timing > $OUT_DIR/${DESIGN}_timing.rpt
+
+Lic Summary:
+[15:41:29.001249] Cdslmd servers: /home/niorr/cadence/licenses/license.dat
+[15:41:29.016560] Feature usage summary:
+[15:41:29.291263]  Genus_Synthesis 
+Normal exit.
