@@ -1,0 +1,91 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[14:27:10.366969] Configured Lic search path (25.01-s002): /home/niorr/cadence/licenses/license.dat
+
+Version: 25.10-p002_1, built Thu Apr 17 01:35:38 PDT 2025
+Options: 
+Date:    Sat Mar 28 14:27:10 2026
+Host:    lnx60 (x86_64 w/Linux 5.14.0-611.36.1.el9_7.x86_64) (2cores*4cpus*1physical cpu*Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz 3072KB) (15875420KB)
+PID:     27150
+OS:      AlmaLinux 9.7 (Moss Jungle Cat)
+
+Checking out license: Genus_Synthesis
+[14:27:12.036099] Periodic Lic check successful
+[14:27:12.560430] Feature usage summary:
+[14:27:12.560431] Genus_Synthesis  
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Finished executable startup (11 seconds elapsed).
+
+Loading tool scripts...
+Finished loading tool scripts (27 seconds elapsed).
+
+WARNING: This version of the tool is 344 days old.
+@genus:root: 1> source /home/niorr/FPT_Bulbasaurs/physical_design/run.tcl
+Sourcing '/home/niorr/FPT_Bulbasaurs/physical_design/run.tcl' (Sat Mar 28 14:27:58 +07 2026)...
+#@ Begin verbose source /home/niorr/FPT_Bulbasaurs/physical_design/run.tcl
+@file(run.tcl) 5: set_db super_thread_servers {}
+  Setting attribute of root '/': 'super_thread_servers' = 
+@file(run.tcl) 6: set_db auto_super_thread false
+  Setting attribute of root '/': 'auto_super_thread' = false
+@file(run.tcl) 7: set_db max_cpus_per_server 0
+  Setting attribute of root '/': 'max_cpus_per_server' = 0
+@file(run.tcl) 8: set_db information_level 0
+@file(run.tcl) 10: set DESIGN  gaussian_filter
+@file(run.tcl) 11: set RTL_DIR "/home/niorr/FPT_Bulbasaurs/physical_design/gaussian_camera.v"
+@file(run.tcl) 12: set LIB_DIR "/home/niorr/adder_rtl/lib/gsclib045_all_v4.8"
+@file(run.tcl) 13: set OUT_DIR "/home/niorr/FPT_Bulbasaurs/physical_design/results"
+@file(run.tcl) 14: set SDC_FILE "/home/niorr/FPT_Bulbasaurs/physical_design/new.sdc"
+@file(run.tcl) 17: file mkdir $OUT_DIR
+@file(run.tcl) 18: set_db init_hdl_search_path [list $RTL_DIR]
+@file(run.tcl) 21: read_libs $LIB_DIR/gsclib045/timing/slow_vdd1v0_basicCells.lib
+
+  Message Summary for Library slow_vdd1v0_basicCells.lib:
+  *******************************************************
+  Missing a function attribute in the output pin definition. [LBR-518]: 1
+  *******************************************************
+ 
+@file(run.tcl) 22: set_db library [list $LIB_DIR/gsclib045/timing/slow_vdd1v0_basicCells.lib]
+Freeing libraries in memory (  { /home/niorr/adder_rtl/lib/gsclib045_all_v4.8/gsclib045/timing/slow_vdd1v0_basicCells.lib } )
+
+@file(run.tcl) 24: read_hdl  /home/niorr/pj/project_7/project_7.srcs/sources_1/sha256_2.0.v
+@file(run.tcl) 26: elaborate $DESIGN
+Error   : Could not find an HDL design. [CDFG-210] [elaborate]
+        : The design is 'gaussian_filter'.
+        : This error may happen if you read a set of files, and you try to elaborate a design which description is not part of the files read. To fix this, check the name of the design you want to elaborate, or check if you have read all the expected RTL files.
+UM:   flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   elaborate
+#@ End verbose source /home/niorr/FPT_Bulbasaurs/physical_design/run.tcl
+1
+@genus:root: 2> source /home/niorr/FPT_Bulbasaurs/physical_design/run.tcl
+Sourcing '/home/niorr/FPT_Bulbasaurs/physical_design/run.tcl' (Sat Mar 28 14:29:11 +07 2026)...
+#@ Begin verbose source /home/niorr/FPT_Bulbasaurs/physical_design/run.tcl
+@file(run.tcl) 5: set_db super_thread_servers {}
+@file(run.tcl) 6: set_db auto_super_thread false
+@file(run.tcl) 7: set_db max_cpus_per_server 0
+@file(run.tcl) 8: set_db information_level 0
+@file(run.tcl) 10: set DESIGN  gaussian_filter
+@file(run.tcl) 11: set RTL_DIR "/home/niorr/FPT_Bulbasaurs/physical_design/gaussian_camera.v"
+@file(run.tcl) 12: set LIB_DIR "/home/niorr/adder_rtl/lib/gsclib045_all_v4.8"
+@file(run.tcl) 13: set OUT_DIR "/home/niorr/FPT_Bulbasaurs/physical_design/results"
+@file(run.tcl) 14: set SDC_FILE "/home/niorr/FPT_Bulbasaurs/physical_design/new.sdc"
+@file(run.tcl) 17: file mkdir $OUT_DIR
+@file(run.tcl) 18: set_db init_hdl_search_path [list $RTL_DIR]
+@file(run.tcl) 21: read_libs $LIB_DIR/gsclib045/timing/slow_vdd1v0_basicCells.lib
+#@ End verbose source /home/niorr/FPT_Bulbasaurs/physical_design/run.tcl
+Cannot use read_libs after read_mmmc
+@genus:root: 3> exit
+
+Lic Summary:
+[14:29:15.001249] Cdslmd servers: /home/niorr/cadence/licenses/license.dat
+[14:29:15.016560] Feature usage summary:
+[14:29:15.291263]  Genus_Synthesis 
+Normal exit.
