@@ -1,0 +1,140 @@
+#
+# Created by Genus(TM) Synthesis Solution 25.10-p002_1 on Apr 02 2026  05:43:41 pm
+#
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN gaussian_filter_top ;
+UNITS DISTANCE MICRONS 2000 ;
+PROPERTYDEFINITIONS
+   DESIGN FE_CORE_BOX_LL_X REAL 100 ;
+   DESIGN FE_CORE_BOX_LL_Y REAL 100 ;
+   DESIGN FE_CORE_BOX_UR_X REAL 1900 ;
+   DESIGN FE_CORE_BOX_UR_Y REAL 1900 ;
+   DESIGN RC_DEF STRING "/designs/gaussian_filter_top" ;
+END PROPERTYDEFINITIONS
+
+DIEAREA ( 0 0 ) ( 4000000 4000000 ) ;
+
+COMPONENTS 0 ;
+END COMPONENTS
+
+PINS 38 ;
+   - clk + NET clk
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - rst_n + NET rst_n
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_href + NET i_href
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_vsync + NET i_vsync
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[15\] + NET i_data\[15\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[14\] + NET i_data\[14\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[13\] + NET i_data\[13\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[12\] + NET i_data\[12\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[11\] + NET i_data\[11\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[10\] + NET i_data\[10\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[9\] + NET i_data\[9\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[8\] + NET i_data\[8\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[7\] + NET i_data\[7\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[6\] + NET i_data\[6\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[5\] + NET i_data\[5\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[4\] + NET i_data\[4\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[3\] + NET i_data\[3\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[2\] + NET i_data\[2\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[1\] + NET i_data\[1\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - i_data\[0\] + NET i_data\[0\]
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - o_href + NET o_href
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_vsync + NET i_vsync
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[15\] + NET o_data\[15\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[14\] + NET o_data\[14\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[13\] + NET o_data\[13\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[12\] + NET o_data\[12\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[11\] + NET o_data\[11\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[10\] + NET o_data\[10\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[9\] + NET o_data\[9\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[8\] + NET o_data\[8\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[7\] + NET o_data\[7\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[6\] + NET o_data\[6\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[5\] + NET o_data\[5\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[4\] + NET o_data\[4\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[3\] + NET o_data\[3\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[2\] + NET o_data\[2\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[1\] + NET o_data\[1\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - o_data\[0\] + NET o_data\[0\]
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+END PINS
+
+END DESIGN
+

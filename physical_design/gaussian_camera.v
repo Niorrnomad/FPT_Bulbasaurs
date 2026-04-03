@@ -11,8 +11,8 @@ module gaussian_filter #(
 
     wire [5:0] gray_in=i_data[10:5];
 
-    reg [5:0] line_buff_0 [0:IMG_WIDTH-1] /* synthesis syn_ramstyle = "block_ram" */;
-    reg [5:0] line_buff_1 [0:IMG_WIDTH-1] /* synthesis syn_ramstyle = "block_ram" */;
+    reg [5:0] line_buff_0 [0:IMG_WIDTH-1];
+    reg [5:0] line_buff_1 [0:IMG_WIDTH-1] ;
     reg [10:0] wr_ptr;
     
     reg [5:0] d1, d2, d0_reg;

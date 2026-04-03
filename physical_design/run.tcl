@@ -2,10 +2,10 @@
 #  run.tcl 
 # ============================================================
 
-set_db super_thread_servers {}
-set_db auto_super_thread false
-set_db max_cpus_per_server 0
-set_db information_level 0
+#set_db super_thread_servers {}
+#set_db auto_super_thread false
+#set_db max_cpus_per_server 0
+#set_db information_level 0
 # === Design setup ===
 set DESIGN  gaussian_filter
 set RTL_DIR "/home/niorr/FPT_Bulbasaurs/physical_design/gaussian_camera.v"
@@ -18,8 +18,7 @@ file mkdir $OUT_DIR
 set_db init_hdl_search_path [list $RTL_DIR]
 
 
-read_libs $LIB_DIR/gsclib045/timing/slow_vdd1v0_basicCells.lib
-set_db library [list $LIB_DIR/gsclib045/timing/slow_vdd1v0_basicCells.lib]
+read_libs [glob /home/niorr/adder_rtl/lib/gsclib045_all_v4.8/gsclib045/timing/*.lib]
 
 read_hdl  $RTL_DIR
 
@@ -27,12 +26,11 @@ elaborate $DESIGN
 
 read_sdc $SDC_FILE
 
-
 syn_generic
 syn_map
 syn_opt
 
-
+write_def > $OUT_DIR/${DESIGN}_synth.def
 write_hdl > $OUT_DIR/${DESIGN}_synth.v
 write_sdc > $OUT_DIR/${DESIGN}_synth.sdc
 report_area  > $OUT_DIR/${DESIGN}_area.rpt

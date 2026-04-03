@@ -1,0 +1,9 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_rc_corner -name lmao -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_op_cond -name lmao -library_file {Downloads/gsclib045_all_v4.8/gsclib045/timing/fast_vdd1v0_basicCells.lib} -P {10.0} -V {10.0} -T {10.0}
+create_library_set -name lmao -timing {Downloads/gsclib045_all_v4.8/gsclib045/timing/fast_vdd1v0_basicCells.lib Downloads/gsclib045_all_v4.8/gsclib045/timing/slow_vdd1v0_basicCells.lib Downloads/gsclib045_all_v4.8/gsclib045/timing/fast_vdd1v0_extvdd1v0.lib Downloads/gsclib045_all_v4.8/gsclib045/timing/fast_vdd1v0_extvdd1v0_extvddb1v2.lib Downloads/gsclib045_all_v4.8/gsclib045/timing/fast_vdd1v0_extvdd1v2.lib Downloads/gsclib045_all_v4.8/gsclib045/timing/fast_vdd1v0_multibitsDFF.lib Downloads/gsclib045_all_v4.8/gsclib045/timing/slow_vdd1v0_extvdd1v0.lib Downloads/gsclib045_all_v4.8/gsclib045/timing/slow_vdd1v0_extvdd1v0_extvddb1v2.lib Downloads/gsclib045_all_v4.8/gsclib045/timing/slow_vdd1v0_extvdd1v2.lib Downloads/gsclib045_all_v4.8/gsclib045/timing/slow_vdd1v0_multibitsDFF.lib}
+create_constraint_mode -name lmao -sdc_files {FPT_Bulbasaurs/physical_design/results/gaussian_filter_synth.sdc}
+create_delay_corner -name lmao -library_set {lmao} -rc_corner {lmao}
+create_analysis_view -name lmao -constraint_mode {lmao} -delay_corner {lmao}
+set_analysis_view -setup {lmao} -hold {lmao}
