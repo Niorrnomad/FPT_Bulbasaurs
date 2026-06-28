@@ -1,0 +1,4 @@
+
+Usage: check_design [-help] [-id <string>] [-out_file <string>] {[{-type {library netlist synthesis power_intent timing hierarchical pin_assign budget assign_statements extract_rc place opt cts route signoff all} | -type_3d {db tech_lib netlist power_intent timing place floorplan route all}} [-format {table detail}]] [-no_check ]}
+
+**ERROR: (IMPTCM-48):	"-all" is not a legal option for command "check_design". Either the current option or an option prior to it is not specified correctly.

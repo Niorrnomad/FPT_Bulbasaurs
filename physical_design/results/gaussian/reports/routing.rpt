@@ -1,0 +1,241 @@
+**WARN: (IMPFP-3803):	Command "reportRoute" is obsolete and has been replaced by "report_route". 
+The obsolete command still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use "report_route".
+Type 'man IMPFP-3803' for more detail.
+#WARNING (NRIF-95) Option setNanoRouteMode -routeTopRoutingLayer has invalid value "0". Reset to max routing layer "11".
+#WARNING (NRIF-95) Option setNanoRouteMode -routeTopRoutingLayer has invalid value "0". Reset to max routing layer "11".
+#
+# statistics:
+#Cpu time = 00:00:02
+#Elapsed time = 00:00:02
+#Increased memory = 23.66 (MB)
+#Total memory = 3180.82 (MB)
+#Peak memory = 3663.76 (MB)
+#Number of warnings = 2
+#Total number of warnings = 35
+#Number of fails = 0
+#Total number of fails = 0
+#Complete  on Sun Jun 28 10:18:33 2026
+#
+#
+#  Scalability Statistics
+#
+#-----------------+---------+-------------+------------+
+#                 | cpu time| elapsed time| scalability|
+#-----------------+---------+-------------+------------+
+#  Pre Callback   | 00:00:00|     00:00:00|         1.0|
+#  Post Callback  | 00:00:00|     00:00:00|         1.0|
+#  DB Import      | 00:00:01|     00:00:01|         1.0|
+#  DB Export      | 00:00:01|     00:00:01|         1.0|
+#  Entire Command | 00:00:02|     00:00:02|         1.0|
+#-----------------+---------+-------------+------------+
+#
+*** Statistics for net list gaussian_filter ***
+Number of cells      = 29550
+Number of nets       = 29581
+Number of tri-nets   = 0
+Number of degen nets = 0
+Number of pins       = 139099
+Number of i/os       = 38
+
+Number of nets with    2 terms = 10552 (35.7%)
+Number of nets with    3 terms = 15449 (52.2%)
+Number of nets with    4 terms = 77 (0.3%)
+Number of nets with    5 terms = 47 (0.2%)
+Number of nets with    6 terms = 33 (0.1%)
+Number of nets with    7 terms = 41 (0.1%)
+Number of nets with    8 terms = 31 (0.1%)
+Number of nets with    9 terms = 25 (0.1%)
+Number of nets with >=10 terms = 3326 (11.2%)
+
+*** 62 Primitives used:
+Primitive XNOR2X1 (3 insts)
+Primitive SDFFRHQX8 (1 insts)
+Primitive SDFFRHQX1 (36 insts)
+Primitive SDFFQX1 (15375 insts)
+Primitive SDFFHQX4 (3 insts)
+Primitive OR4X1 (36 insts)
+Primitive OR2XL (2 insts)
+Primitive OR2X6 (11 insts)
+Primitive OR2X4 (19 insts)
+Primitive OR2X2 (48 insts)
+Primitive OR2X1 (17 insts)
+Primitive OAI2BB1X1 (2 insts)
+Primitive OAI22X1 (1 insts)
+Primitive OAI21X1 (1 insts)
+Primitive OAI211X1 (1 insts)
+Primitive NOR4X1 (480 insts)
+Primitive NOR3X1 (1 insts)
+Primitive NOR2XL (4 insts)
+Primitive NOR2X2 (12 insts)
+Primitive NOR2X1 (2147 insts)
+Primitive NOR2BX1 (9 insts)
+Primitive NAND4XL (1938 insts)
+Primitive NAND4X1 (102 insts)
+Primitive NAND3BXL (2 insts)
+Primitive NAND2XL (5 insts)
+Primitive NAND2X2 (7 insts)
+Primitive NAND2X1 (522 insts)
+Primitive NAND2BXL (1 insts)
+Primitive NAND2BX2 (2 insts)
+Primitive NAND2BX1 (39 insts)
+Primitive MXI2XL (2 insts)
+Primitive INVXL (50 insts)
+Primitive INVX6 (1 insts)
+Primitive INVX3 (25 insts)
+Primitive INVX2 (220 insts)
+Primitive INVX1 (385 insts)
+Primitive DFFRHQX8 (1 insts)
+Primitive DFFRHQX1 (3 insts)
+Primitive DFFQXL (1 insts)
+Primitive DFFHQX1 (11 insts)
+Primitive CLKINVX8 (9 insts)
+Primitive CLKINVX4 (1 insts)
+Primitive CLKINVX20 (1 insts)
+Primitive CLKBUFX8 (10 insts)
+Primitive CLKBUFX6 (150 insts)
+Primitive CLKBUFX3 (3 insts)
+Primitive CLKBUFX20 (4 insts)
+Primitive BUFX8 (1 insts)
+Primitive BUFX6 (9 insts)
+Primitive BUFX4 (2 insts)
+Primitive BUFX2 (121 insts)
+Primitive AOI31X1 (1 insts)
+Primitive AOI2BB1XL (1 insts)
+Primitive AOI22XL (5761 insts)
+Primitive AOI22X1 (1921 insts)
+Primitive AOI221X1 (2 insts)
+Primitive AOI21XL (1 insts)
+Primitive AOI21X1 (2 insts)
+Primitive AND2XL (1 insts)
+Primitive AND2X4 (1 insts)
+Primitive AND2X1 (1 insts)
+Primitive ADDFX1 (21 insts)
+************
+*** Net length and connection length statistics (cell gaussian_filter) ***
+
+Total net length = 5.435e+05 (2.871e+05 2.564e+05)
+
+Avg net length = 1.837e+01 (sigma = 4.009e+01)
+Sqrt of avg square net length = 4.410e+01
+
+Avg connection length = 4.962e+00 (sigma = 8.047e+00)
+Sqrt of avg square connection length = 9.454e+00
+
+Net and connection length distribution:
+
+[length   range   ]      #net #connection
+[0.00e+00 4.00e+00]:     2985    16402
+[4.00e+00 8.00e+00]:    13352     7349
+[8.00e+00 1.20e+01]:     5436     1815
+[1.20e+01 1.60e+01]:     1395     1018
+[1.60e+01 2.00e+01]:      706      704
+[2.00e+01 2.40e+01]:      465      430
+[2.40e+01 2.80e+01]:      434      304
+[2.80e+01 3.20e+01]:      407      239
+[3.20e+01 3.60e+01]:      533      189
+[3.60e+01 4.00e+01]:      582      154
+[4.00e+01 4.40e+01]:      509      158
+[4.40e+01 4.80e+01]:      487      130
+[4.80e+01 5.20e+01]:      411      119
+[5.20e+01 5.60e+01]:      264       78
+[5.60e+01 6.00e+01]:      187       64
+[6.00e+01 6.40e+01]:      153       62
+[6.40e+01 6.80e+01]:      127       48
+[6.80e+01 7.20e+01]:       94       48
+[7.20e+01 7.60e+01]:       75       37
+[7.60e+01 8.00e+01]:       55       34
+[8.00e+01 8.40e+01]:       40       28
+[8.40e+01 8.80e+01]:       46       25
+[8.80e+01 9.20e+01]:       33       22
+[9.20e+01 9.60e+01]:       34       14
+[9.60e+01 1.00e+02]:       31       12
+[1.00e+02 1.04e+02]:       28       10
+[1.04e+02 1.08e+02]:       27       10
+[1.08e+02 1.12e+02]:       18        4
+[1.12e+02 1.16e+02]:       22        1
+[1.16e+02 1.20e+02]:       18        5
+[1.20e+02 1.24e+02]:       23        5
+[1.24e+02 1.28e+02]:       21        2
+[1.28e+02 1.32e+02]:       26        4
+[1.32e+02 1.36e+02]:       34        5
+[1.36e+02 1.40e+02]:       33        3
+[1.40e+02 1.44e+02]:       26        4
+[1.44e+02 1.48e+02]:       27        4
+[1.48e+02 1.52e+02]:       19        2
+[1.52e+02 1.56e+02]:       20        5
+[1.56e+02 1.60e+02]:       15        1
+[1.60e+02 1.64e+02]:       22        4
+[1.64e+02 1.68e+02]:       26        5
+[1.68e+02 1.72e+02]:       15        4
+[1.72e+02 1.76e+02]:       15        3
+[1.76e+02 1.80e+02]:       16        5
+[1.80e+02 1.84e+02]:       15        1
+[1.84e+02 1.88e+02]:       15        1
+[1.88e+02 1.92e+02]:       10        2
+[1.92e+02 1.96e+02]:       10        1
+[1.96e+02 2.00e+02]:       12        2
+[2.00e+02 2.04e+02]:       10        0
+[2.04e+02 2.08e+02]:        6        2
+[2.08e+02 2.12e+02]:        2        0
+[2.12e+02 2.16e+02]:        4        0
+[2.16e+02 2.20e+02]:        7        1
+[2.20e+02 2.24e+02]:        8        0
+[2.24e+02 2.28e+02]:        1        0
+[2.28e+02 2.32e+02]:        4        0
+[2.32e+02 2.36e+02]:        8        1
+[2.36e+02 2.40e+02]:        6        0
+[2.40e+02 2.44e+02]:        3        0
+[2.44e+02 2.48e+02]:        2        0
+[2.48e+02 2.52e+02]:        1        0
+[2.52e+02 2.56e+02]:        5        1
+[2.56e+02 2.60e+02]:        3        0
+[2.60e+02 2.64e+02]:        5        0
+[2.64e+02 2.68e+02]:        3        0
+[2.68e+02 2.72e+02]:        3        0
+[2.72e+02 2.76e+02]:        6        0
+[2.76e+02 2.80e+02]:        8        0
+[2.80e+02 2.84e+02]:        8        0
+[2.84e+02 2.88e+02]:        7        0
+[2.88e+02 2.92e+02]:        3        0
+[2.92e+02 2.96e+02]:        4        0
+[2.96e+02 3.00e+02]:        3        0
+[3.00e+02 3.04e+02]:        1        0
+[3.04e+02 3.08e+02]:        7        0
+[3.08e+02 3.12e+02]:        3        0
+[3.12e+02 3.16e+02]:        3        0
+[3.16e+02 3.20e+02]:        1        0
+[3.20e+02 3.24e+02]:        4        0
+[3.24e+02 3.28e+02]:        6        0
+[3.28e+02 3.32e+02]:        3        0
+[3.32e+02 3.36e+02]:        2        0
+[3.36e+02 3.40e+02]:        3        0
+[3.40e+02 3.44e+02]:        4        0
+[3.44e+02 3.48e+02]:        2        0
+[3.48e+02 3.52e+02]:        1        0
+[3.52e+02 3.56e+02]:        1        0
+[3.60e+02 3.64e+02]:        1        0
+[3.64e+02 3.68e+02]:        1        0
+[3.68e+02 3.72e+02]:        3        0
+[3.72e+02 3.76e+02]:        1        0
+[3.80e+02 3.84e+02]:        1        0
+[3.84e+02 3.88e+02]:        1        0
+[7.92e+05 infinity]:       58        0
+
+
+Total number of long connections = 0
+Io: nrCon=0
+
+
+Total length: 7.296e+05um, number of vias: 317903
+M1(H) length: 7.577e+03um, number of vias: 141586
+M2(V) length: 1.962e+05um, number of vias: 133938
+M3(H) length: 2.688e+05um, number of vias: 31580
+M4(V) length: 1.691e+05um, number of vias: 10749
+M5(H) length: 8.716e+04um, number of vias: 50
+M6(V) length: 7.938e+02um, number of vias: 0
+M7(H) length: 0.000e+00um, number of vias: 0
+M8(V) length: 0.000e+00um, number of vias: 0
+M9(H) length: 0.000e+00um, number of vias: 0
+M10(V) length: 0.000e+00um, number of vias: 0
+M11(H) length: 0.000e+00um
+
