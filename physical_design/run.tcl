@@ -7,7 +7,7 @@ set_multi_cpu_usage -local_cpu 4
 set DESIGN  median_filter
 set RTL_DIR "/home/niorr/FPT_Bulbasaurs/physical_design/median_camera.v"
 set LIB_DIR "/home/niorr/Downloads/gsclib045_all_v4.8"
-set OUT_DIR "/home/niorr/FPT_Bulbasaurs/physical_design/results"
+set OUT_DIR "/home/niorr/FPT_Bulbasaurs/physical_design/results/median"
 set SDC_FILE "/home/niorr/FPT_Bulbasaurs/physical_design/new.sdc"
 
 # === Environment setup ===
@@ -27,7 +27,6 @@ syn_generic
 syn_map
 syn_opt
 
-write_def > $OUT_DIR/${DESIGN}_synth.def
 write_hdl > $OUT_DIR/${DESIGN}_synth.v
 write_sdc > $OUT_DIR/${DESIGN}_synth.sdc
 report_area  > $OUT_DIR/${DESIGN}_area.rpt

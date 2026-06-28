@@ -93,11 +93,12 @@ catch { setVerifyGeometryMode -stackedViasOnRegNet false }
 catch { setVerifyGeometryMode -useNonDefaultSpacing false }
 catch { setVerifyGeometryMode -viaEnclosure true }
 catch { setVerifyGeometryMode -wireExt true }
+catch { setActiveLogicViewMode -keepHighFanoutCriticalInsts false }
 catch { setUsefulSkewMode -opt_skew_eco_route false }
 catch { setUsefulSkewMode -opt_skew_max_allowed_delay 1 }
 catch { setUsefulSkewMode -opt_skew_max_skew false }
 catch { setUsefulSkewMode -opt_skew_no_boundary false }
-catch { setUsefulSkewMode -opt_skew_cells {DLY4X4 DLY4X1 DLY3X4 DLY3X1 DLY2X4 DLY2X1 DLY1X4 DLY1X1 CLKBUFX8 CLKBUFX6 CLKBUFX4 CLKBUFX3 CLKBUFX20 CLKBUFX2 CLKBUFX16 CLKBUFX12 BUFX8 BUFX6 BUFX4 BUFX3 BUFX20 BUFX2 BUFX16 BUFX12 INVXL INVX8 INVX6 INVX4 INVX3 INVX20 INVX2 INVX16 INVX12 INVX1 CLKINVX8 CLKINVX6 CLKINVX4 CLKINVX3 CLKINVX20 CLKINVX2 CLKINVX16 CLKINVX12 CLKINVX1} }
+catch { setUsefulSkewMode -opt_skew_cells {BUFX12 BUFX16 BUFX2 BUFX20 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX2 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8 DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4 CLKINVX1 CLKINVX12 CLKINVX16 CLKINVX2 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX12 INVX16 INVX2 INVX20 INVX3 INVX4 INVX6 INVX8 INVXL} }
 catch { setSrouteMode -viaConnectToShape noshape }
 catch { setDelayCalMode -enable_hier_save_restore_flow false }
 catch { setDelayCalMode -enable_high_fanout true }
@@ -111,6 +112,7 @@ catch { setPinAssignMode -pinEditInBatch false }
 catch { setHierMode -disableArt false }
 catch { setHierMode -reportPostRouteArtTiming false }
 catch { setHierMode -trialRouteHonorReadOnly false }
+catch { setImportMode -config true }
 catch { setImportMode -discardFloatingVNets false }
 catch { setImportMode -keepEmptyModule true }
 catch { setSIMode -separate_delta_delay_on_data true }
